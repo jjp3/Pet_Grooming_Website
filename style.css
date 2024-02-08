@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    /*border: 0.5px solid red;*/
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+img {
+    object-fit: cover;
+}
+
+body {
+    background-color: #fff;
+}
+
+nav {
+    padding: 0 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+}
+
+nav a.logo {
+    font-size: 33px;
+    color: #b80b0b;
+    font-weight: 600;
+}
+
+nav .links a:not(:last-child) {
+    margin-right: 20px;
+}
+
+nav .login button {
+    padding: 8px 14px;
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+nav .login button.signup {
+    background-color: #000;
+    color: #fff;
+    border-radius: 4px;
+    margin-right: 14px;
+}
+
+header {
+    padding: 0 80px;
+    height: calc(100vh - 80px);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+header img {
+    height: 100%;
+    width: 100%;
+}
+
+header .left {
+    width: 750px;
+    position: absolute;
+    padding: 20px;
+    text-shadow: 0 5px 10px #0004;
+}
+
+header .left p {
+    margin: 20px 0;
+    font-weight: bold;
+    line-height: 175%;
+}
+
+header .left h1 {
+    font-size: 80px;
+}
+
+header .left h1 span {
+    color: #b80b0b;
+}
+
+header .left a {
+    display: flex;
+    align-items: center;
+    background: #b80b0b;
+    width: 150px;
+    padding: 8px;
+    border-radius: 60px;
+    justify-content: center;
+    margin: auto;
+}
+
+header .left a span {
+    color: #fff;
+}
+
+.services {
+    margin: 50px 240px;
+}
+
+.services h2 {
+    font-weight: normal;
+    font-size: 30px;
+    padding: 0 80px;
+    margin: 20px;
+    width: 350px;
+}
+
+.services p {
+    padding: 0 80px;
+    margin: 20px;
+    width: 1200px;
+    line-height: 175%;
+    color: #777474;
+}
+
+.service_list {
+    margin: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.service_list img {
+    width: 300px;
+    height: 300px;
+    border-color: #000;
+    border-style: solid;
+    box-shadow: 4px 4px 4px #777474;
+}
